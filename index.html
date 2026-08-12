@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda de tecnología con gradientes CSS.">
+  <title>Nova Tech | Productos destacados</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="encabezado">
+    <a class="logo" href="#inicio">NOVA<span>TECH</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-labelledby="titulo-hero">
+      <div class="hero__contenido">
+        <p class="etiqueta">Tecnología que inspira</p>
+        <h1 id="titulo-hero">Encuentra tu próximo gran dispositivo</h1>
+        <p>Productos seleccionados para estudiar, crear y disfrutar cada día con la mejor experiencia.</p>
+        <a class="boton boton--hero" href="#productos">Ver productos</a>
+      </div>
+    </section>
+
+    <section class="productos seccion" id="productos" aria-labelledby="titulo-productos">
+      <div class="seccion__encabezado">
+        <p class="etiqueta etiqueta--oscura">Selección especial</p>
+        <h2 id="titulo-productos">Productos destacados</h2>
+        <p>Equipa tus ideas con tecnología práctica y de gran diseño.</p>
+      </div>
+
+      <div class="tarjetas">
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=80" alt="Audífonos inalámbricos negros" loading="lazy">
+          <div class="tarjeta__contenido">
+            <span class="categoria">Audio</span>
+            <h3>Audífonos Wave</h3>
+            <p>Sonido envolvente y batería para todo tu día.</p>
+            <div class="tarjeta__pie">
+              <strong>$49.99</strong>
+              <button class="boton boton--comprar" type="button">Comprar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=700&q=80" alt="Computadora portátil sobre una mesa" loading="lazy">
+          <div class="tarjeta__contenido">
+            <span class="categoria">Computación</span>
+            <h3>Laptop Nova 14</h3>
+            <p>Ligera, veloz y lista para acompañar tus proyectos.</p>
+            <div class="tarjeta__pie">
+              <strong>$699.99</strong>
+              <button class="boton boton--comprar" type="button">Comprar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="tarjeta">
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80" alt="Teléfono inteligente de color oscuro" loading="lazy">
+          <div class="tarjeta__contenido">
+            <span class="categoria">Móviles</span>
+            <h3>Smartphone Pixel</h3>
+            <p>Captura, conecta y crea con una cámara excepcional.</p>
+            <div class="tarjeta__pie">
+              <strong>$399.99</strong>
+              <button class="boton boton--comprar" type="button">Comprar</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <p>© 2026 Nova Tech · Diseñado con CSS Gradients</p>
+  </footer>
+</body>
+</html>
